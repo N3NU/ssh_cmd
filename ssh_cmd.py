@@ -17,7 +17,7 @@ def ssh_command(ip, port, user, passwd, cmd):
 if __name__ == '__main__':
     import getpass
     # user = getpass.getuser()
-    user = inpput('Username: ')
+    user = input('Username: ')
     password = getpass.getpass()
 
     ip = input('Enter server IP: ') or '192.168.1.203'
